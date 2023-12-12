@@ -185,7 +185,7 @@
     background-color: white;
     text-align: center;
     position: relative;
-    bottom: 155px;
+    bottom: 200px;
 
 }
 .move button{
@@ -276,3 +276,164 @@
     padding-top: 30px;
 }
 
+
+    @media screen and (min-width: 320px) and (max-width: 570px) {
+        .second {
+          width: unset !important;
+          height: unset !important;
+        }
+    .image{
+       
+        width: unset !important;
+    }
+    .third{
+        height: unset !important;
+        
+        flex-direction: column;
+    }
+    .im{
+        height: unset !important;
+    }
+    .forth{
+        height: unset !important;
+        
+        flex-direction: column;
+    }
+    .fifth{
+        height: unset !important;
+       
+        flex-direction: column;
+    }
+    .sixth{
+        height: unset !important;
+        
+        flex-direction: column;
+    }
+    .seventh{
+        height: unset !important;
+       
+        flex-direction: column;
+    }
+    .eighth{
+        height: unset !important;
+        
+        flex-direction: column;
+    }
+    .ninth{
+        height: unset !important;
+       
+        flex-direction: column;
+    }
+    .tenth{
+        height: unset !important;
+        
+        flex-direction: column;
+    }
+    .eleventh{
+        height: unset !important;
+        flex-direction: column;
+    }
+    .picture{
+        width: unset !important;
+    }
+    .move{
+        height: 400px !important;
+        width:  200px!important;
+        position: static !important;
+    }
+    .background{
+        height: unset !important;
+    }
+    }
+    @media screen and (max-width:1400px){
+        .move{
+            position: relative;
+            right: 52px;
+        }
+    }
+    @media screen and (max-width:1230px){
+       .move{
+        position: relative;
+        bottom: 210px;
+        left: 30px;
+        width: 250px !important;
+        height: unset !important;
+       }
+       .sixth{
+        height: unset !important;
+       }
+    }
+    @media screen and (max-width:1200px){
+        .forth{
+            height: unset !important;
+        }
+    }
+    @media screen and (max-width:1000px){
+        .move{
+            width: 500px !important;
+            position: relative;
+            top: 20px ;
+            left: 155px;
+        }
+        .image{
+            width: 250px !important;
+            height: 430px !important;
+        }
+        .intro{
+            margin-top: 20px !important;
+        }
+        .picture{
+            width:250px !important ;
+        }
+        .seventh{
+            height: unset !important;
+        }
+        .contents{
+            padding-bottom: 20px !important;
+        }
+        .eighth{
+           
+            height: unset !important;
+        }
+        .hope {
+           flex-wrap: wrap !important;
+            margin: 10px 20px !important;
+        }
+        .ninth{
+            height: unset !important;
+        }
+        .book{
+            margin-top: 10px !important;
+            margin-bottom: 10px !important;
+        }
+        .tenth{
+            height: unset !important;
+        }
+        .sec{
+            height: 100px !important;
+            width: 100px !important;
+            border-radius: 50% !important;
+            text-align: center !important;
+            margin: auto !important;
+        }
+    }
+    @media screen and (max-width:1000px){
+        .second{
+            height: unset !important;
+            flex-wrap: wrap !important;
+
+        }
+       .move{
+        position: relative !important;
+        left: 20px;
+       }
+       .eleventh{
+        height: unset !important;
+       }
+       .background{
+        height: unset  !important;
+       }
+       
+    }
+
+    
